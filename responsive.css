@@ -1,0 +1,78 @@
+/* Responsive */
+@media screen and (max-width: 500px) {
+  /*Responsive Header*/
+  .header{
+    margin-bottom:10px;
+    padding-bottom: 10px;
+  }
+  .header a {
+    float: none;
+    /*display: block;*/
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .header-right {
+    float: none;
+  }
+
+  /*Responsive Main*/
+  .top-wrapper h3 {
+    font-size: 27px;
+  }
+  .top-wrapper {
+    background-image:url('main3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+  }
+  .top-wrapper1 img {
+    padding-top:20px;
+    width: 80%;
+  }
+
+  .top-wrapper p{
+    font-size: 13px;
+
+  }
+  /*Responsive Body*/
+  
+  /*Responsive Form*/
+  h4{
+    color: black
+  }
+  .kirim input {
+    background-color: black
+  }
+  .form-registrasi {
+    background-color: green;
+  }
+  .form p {
+    color: white;
+  }
+  label {
+    color: white;
+  }
+  /*Responsive Footer*/
+  
+}
+
+@media screen and (max-width: 1000px){ /*Ukuran Tablet*/
+  /*Responsip Tablet Header*/
+
+  /*Responsive Main*/
+  .top-wrapper1 img {
+    padding-top:20px;
+    width: 80%;
+  }
+  /*Responsive Body*/
+  
+  /*Responsive Form*/
+  
+  /*Responsive Footer*/
+@media(max-width: 670px){
+    footer{
+     text-align: center; 
+    }
+  }
+}
